@@ -4,7 +4,7 @@ Version: 1.0
 Date: 2015-05-26
 Author: Huaying Fang
 Maintainer: Huaying Fang <hyfang@pku.edu.cn>
-License: GNU LGPL-3
+License: GNU LGPL v3
 Run Environment: R (>= 3.1.1)
 Depends: Matrix, gtools
 Url: Also see http://www.math.pku.edu.cn/teachers/dengmh/CCLasso/
