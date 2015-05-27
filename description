@@ -1,0 +1,9 @@
+Title: CCLasso
+Description: Corrlation Inference for Compositional Data through Data
+Version: 1.0
+Date: 2015-05-26
+Author: Huaying Fang
+Maintainer: Huaying Fang <hyfang@pku.edu.cn>
+License: LGPL-3
+Depends: R (>= 3.1.1)
+Dependent Packages: Matrix, gtools
