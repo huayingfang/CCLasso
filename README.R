@@ -1,5 +1,5 @@
 ################################################################################
-# File: README.txt
+# File: README.R
 # Aim : A brief introduction about the usage for classo and SparCC
 #-------------------------------------------------------------------------------
 # Author: Fang Huaying (Peking University)
