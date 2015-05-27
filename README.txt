@@ -70,13 +70,13 @@ res_spa_count <- SparCC.count(x = x.count);
 res_spa_frac <- SparCC.frac(x = x.frac);
 # 4. get the correlation matrix
 {
-cat("CCLasso using fraction data:\n");
-print(round(res_ccl_frac$cor.w, 2));
-cat("CCLasso using count data:\n");
-print(round(res_ccl_count$cor.w, 2));
-cat("SparCC using fraction data:\n");
-print(round(res_spa_frac$cor.w, 2));
-cat("SparCC using count data:\n");
-print(round(res_spa_count$cor.w, 2));
+  cat("CCLasso using fraction data:\n");
+  print(round(res_ccl_frac$cor.w, 2));
+  cat("CCLasso using count data:\n");
+  print(round(res_ccl_count$cor.w, 2));
+  cat("SparCC using fraction data:\n");
+  print(round(res_spa_frac$cor.w, 2));
+  cat("SparCC using count data:\n");
+  print(round(res_spa_count$cor.w, 2));
 }
 #-------------------------------------------------------------------------------
