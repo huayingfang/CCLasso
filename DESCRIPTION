@@ -1,0 +1,21 @@
+Title: CCLasso: Correlation inference for compositional data through Lasso
+Version: 2.0
+Author: Huaying Fang, Chengcheng Huang, Hongyu Zhao and Minghua Deng
+Description: Correlation inference for compositional data through lasso
+Maintainer: Huaying Fang <hyfang@pku.edu.cn>
+License: GNU LGPL-v3
+Date/Publication: 2016-01-08
+Suggests: gtools (for SparCC)
+NeedsCompilation: No
+Test Platform: R-3.1.2 in x86_64-unknown-linux-gnu (64-bit)
+Url: Also see http://www.math.pku.edu.cn/teachers/dengmh/CCLasso/ 
+Note: There are some notable modifications in version 2.0.
+      1. Golden section method is used for cross validation procedure.
+      2. Bootstrap method is used to give more stable estimation.
+      3. An artificial null correlation samples is used to adjust the 
+         correlation's estimation and prove the p-values.
+Acknowledges: I am indebted to Dr. Zewei Song (University of Minnesota) and 
+              Dr. Ricardo Da Silva (University of California, San Diego) for 
+              their generous feedbacks about the bugs that there is a tendency 
+              to select too large lambda for CCLasso v1.0.
+
